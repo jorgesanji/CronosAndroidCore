@@ -160,12 +160,12 @@
         "source": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/bundles/debug/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/res/merged/androidTest/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/res/merged/androidTest/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/res/merged/androidTest/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/res/merged/androidTest/debug/layout/mr_media_route_list_item.xml",

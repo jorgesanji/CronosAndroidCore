@@ -4,8 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
-
-import com.cronosgroup.core.view.MVPFragment;
+import android.support.v4.app.Fragment;
 
 /**
  * Represents a Presenter in a model view presenter (MVP) pattern.
@@ -62,7 +61,7 @@ public interface Presenter<V extends Presenter.View> {
         /**
          * @return The fragment, if any.
          */
-        MVPFragment getFragment();
+        Fragment getFragment();
 
         /**
          * Add here your calls to your widget/library to show user info messages.

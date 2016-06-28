@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by jorgesanmartin on 2/5/16.
  */
-public class RestError {
+public class RestError extends RestBase{
 
     public static final int ERROR_CODE_PARSING = 2003;
     public static final String ERROR_PARSING_MESSAGE = "Error gson mapping";
@@ -44,7 +44,6 @@ public class RestError {
         return getCode() != 0;
     }
 
-
     public static RestError getRequestError() {
         return new RestError(ERROR_REQUEST_CODE_SERVER, ERROR_REQUEST_MESSAGE);
     }
@@ -53,3 +52,5 @@ public class RestError {
         return new RestError(ERROR_REQUEST_CODE_SERVER, ERROR_REQUEST_MESSAGE);
     }
 }
+
+

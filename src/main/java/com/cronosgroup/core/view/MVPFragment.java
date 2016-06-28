@@ -50,11 +50,6 @@ public abstract class MVPFragment<P extends Presenter<V>, V extends Presenter.Vi
     }
 
     @Override
-    public void onStart() {
-        super.onStart();
-    }
-
-    @Override
     public void onResume() {
         super.onResume();
         if (presenter != null) {
