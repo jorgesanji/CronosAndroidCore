@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/ic_ti_02.png",
+        "source": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/src/main/res/mipmap-xxhdpi/ic_ti_02.png"
+    },
+    {
+        "merged": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/build/intermediates/res/merged/release/mipmap-xxhdpi-v4/ic_action_action_done_blanco.png",
+        "source": "/Users/jorgesanmartin/Documents/Repositories/android/TinkerLinkPro/core/src/main/res/mipmap-xxhdpi/ic_action_action_done_blanco.png"
+    }
+]
