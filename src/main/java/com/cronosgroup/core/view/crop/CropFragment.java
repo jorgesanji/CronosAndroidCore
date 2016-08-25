@@ -54,6 +54,7 @@ public class CropFragment extends MVPFragment<CropPresenter, CropPresenter.View>
         return this;
     }
 
+
     @Override
     protected void onDidAppear() {
         Bitmap bitmap = BitmapUtils.decodeFromFile(originalImagePath);

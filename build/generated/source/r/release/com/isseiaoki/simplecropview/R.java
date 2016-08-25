@@ -8,22 +8,22 @@ package com.isseiaoki.simplecropview;
 
 public final class R {
 	public static final class attr {
-		public static final int backgroundColor = 0x7f0100c0;
-		public static final int cropEnabled = 0x7f0100cc;
-		public static final int cropMode = 0x7f0100bf;
-		public static final int frameColor = 0x7f0100c2;
-		public static final int frameStrokeWeight = 0x7f0100ca;
-		public static final int guideColor = 0x7f0100c4;
-		public static final int guideShowMode = 0x7f0100c5;
-		public static final int guideStrokeWeight = 0x7f0100cb;
-		public static final int handleColor = 0x7f0100c3;
-		public static final int handleShowMode = 0x7f0100c6;
-		public static final int handleSize = 0x7f0100c7;
-		public static final int imgSrc = 0x7f0100be;
-		public static final int initialFrameScale = 0x7f0100cd;
-		public static final int minFrameSize = 0x7f0100c9;
-		public static final int overlayColor = 0x7f0100c1;
-		public static final int touchPadding = 0x7f0100c8;
+		public static final int backgroundColor = 0x7f0100bf;
+		public static final int cropEnabled = 0x7f0100cb;
+		public static final int cropMode = 0x7f0100be;
+		public static final int frameColor = 0x7f0100c1;
+		public static final int frameStrokeWeight = 0x7f0100c9;
+		public static final int guideColor = 0x7f0100c3;
+		public static final int guideShowMode = 0x7f0100c4;
+		public static final int guideStrokeWeight = 0x7f0100ca;
+		public static final int handleColor = 0x7f0100c2;
+		public static final int handleShowMode = 0x7f0100c5;
+		public static final int handleSize = 0x7f0100c6;
+		public static final int imgSrc = 0x7f0100bd;
+		public static final int initialFrameScale = 0x7f0100cc;
+		public static final int minFrameSize = 0x7f0100c8;
+		public static final int overlayColor = 0x7f0100c0;
+		public static final int touchPadding = 0x7f0100c7;
 	}
 	public static final class id {
 		public static final int circle = 0x7f0d004d;
@@ -40,10 +40,10 @@ public final class R {
 		public static final int show_on_touch = 0x7f0d0058;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f070041;
+		public static final int app_name = 0x7f07003d;
 	}
 	public static final class styleable {
-		public static final int[] CropImageView = { 0x7f0100be, 0x7f0100bf, 0x7f0100c0, 0x7f0100c1, 0x7f0100c2, 0x7f0100c3, 0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc, 0x7f0100cd };
+		public static final int[] CropImageView = { 0x7f0100bd, 0x7f0100be, 0x7f0100bf, 0x7f0100c0, 0x7f0100c1, 0x7f0100c2, 0x7f0100c3, 0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc };
 		public static final int CropImageView_backgroundColor = 2;
 		public static final int CropImageView_cropEnabled = 14;
 		public static final int CropImageView_cropMode = 1;

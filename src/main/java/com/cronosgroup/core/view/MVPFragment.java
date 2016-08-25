@@ -171,13 +171,6 @@ public abstract class MVPFragment<P extends Presenter<V>, V extends Presenter.Vi
     }
 
     @Override
-    public void removeActivityDelay() {
-        if (getActivity() != null){
-            ((BaseActivity) getActivity()).removeActivityDelay();
-        }
-    }
-
-    @Override
     public void showLoading() {
     }
 

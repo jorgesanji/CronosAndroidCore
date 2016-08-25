@@ -1,7 +1,7 @@
 package com.cronosgroup.core.view.crop;
 
 import android.support.v4.app.Fragment;
-import android.view.View;
+import android.view.ViewGroup;
 
 import com.cronosgroup.core.managers.PermissionsManager;
 import com.cronosgroup.core.view.ToolBarActivity;
@@ -57,7 +57,7 @@ public class CropActivity extends ToolBarActivity {
     }
 
     @Override
-    public View getView() {
+    public ViewGroup getView() {
         return null;
     }
 }

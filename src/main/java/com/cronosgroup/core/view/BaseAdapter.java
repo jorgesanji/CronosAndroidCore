@@ -1,6 +1,8 @@
 package com.cronosgroup.core.view;
 
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Filter;
 import android.widget.Filterable;
@@ -172,5 +174,9 @@ public abstract class BaseAdapter<V extends RecyclerView.ViewHolder, I> extends 
             getItems().remove(position);
             notifyItemRemoved(position);
         }
+    }
+
+    public LayoutInflater getInflater(View parent) {
+        return LayoutInflater.from(parent.getContext());
     }
 }

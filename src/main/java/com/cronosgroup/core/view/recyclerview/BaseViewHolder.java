@@ -66,4 +66,8 @@ public class BaseViewHolder<I> extends RecyclerView.ViewHolder implements View.O
 
     public void configureItem(I item) {
     }
+
+    public Context getContext() {
+        return itemView.getContext();
+    }
 }

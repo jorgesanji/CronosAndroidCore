@@ -112,11 +112,6 @@ public interface Presenter<V extends Presenter.View> {
          * @param stringResId The title res.
          */
         void setTitle(int stringResId);
-
-        /**
-         * remove current activity with delay
-         */
-        void removeActivityDelay();
     }
 
 }

@@ -8,7 +8,7 @@ import android.os.Looper;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDialogFragment;
-import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -23,7 +23,7 @@ import java.util.List;
  */
 public abstract class BaseActivity<A extends BaseApplication> extends AppCompatActivity {
 
-    public static final long TIME_TO_WAIT = 500;
+    public static final long TIME_TO_WAIT = 1200;
 
     private A application;
     private PermissionsManager permissionsManager;
@@ -43,7 +43,7 @@ public abstract class BaseActivity<A extends BaseApplication> extends AppCompatA
 
     public abstract int getStatusColor();
 
-    public abstract View getView();
+    public abstract ViewGroup getView();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

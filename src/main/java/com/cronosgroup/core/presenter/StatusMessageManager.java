@@ -13,7 +13,7 @@ public abstract class StatusMessageManager {
 
     public abstract int getWarningColor();
 
-    private final Presenter.View view;
+    private Presenter.View view;
 
     public StatusMessageManager(Presenter.View view) {
         this.view = view;
@@ -23,8 +23,12 @@ public abstract class StatusMessageManager {
         return getView().getContext();
     }
 
-    public Presenter.View getView() {
+    private Presenter.View getView() {
         return view;
+    }
+
+    public void setView(Presenter.View view) {
+        this.view = view;
     }
 
     public void showError(int message) {
